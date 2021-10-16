@@ -74,7 +74,7 @@ public class OperateurAjouterListeGenerale extends JFrame {
 		contentPane.setBackground(Color.GRAY);
 		contentPane.setBorder(new EmptyBorder(5, 5, 5, 5));
 		setContentPane(contentPane);
-		ImageIcon obj = new ImageIcon(getClass().getResource("/logo.png"));
+		ImageIcon obj = new ImageIcon(getClass().getResource("/Les Icones/logo.png"));
 		super.setIconImage(obj.getImage());
 		contentPane.setLayout(null);
 		cnx = ConnexionMySql.ConnectionDB();
@@ -194,7 +194,7 @@ public class OperateurAjouterListeGenerale extends JFrame {
 				}
 			}
 		});
-		button.setIcon(new ImageIcon(getClass().getResource("/icons8-bouton-de-radio-coch\u00E9-22.png")));
+		button.setIcon(new ImageIcon(getClass().getResource("/Les Icones/icons8-bouton-de-radio-coch\u00E9-22.png")));
 		button.setFont(new Font("Lucida Console", Font.BOLD | Font.ITALIC, 12));
 		button.setBounds(32, 460, 147, 33);
 		contentPane.add(button);
@@ -218,7 +218,7 @@ public class OperateurAjouterListeGenerale extends JFrame {
 				dispose();
 			}
 		});
-		button_1.setIcon(new ImageIcon(getClass().getResource("/icons8-annuler-22.png")));
+		button_1.setIcon(new ImageIcon(getClass().getResource("/Les Icones/icons8-annuler-22.png")));
 		button_1.setFont(new Font("Lucida Console", Font.BOLD | Font.ITALIC, 12));
 		button_1.setBounds(243, 459, 147, 34);
 		contentPane.add(button_1);

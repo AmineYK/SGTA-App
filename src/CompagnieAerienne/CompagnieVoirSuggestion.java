@@ -67,7 +67,7 @@ public class CompagnieVoirSuggestion extends JFrame {
 		contentPane = new JPanel();
 		contentPane.setBorder(new EmptyBorder(5, 5, 5, 5));
 		setContentPane(contentPane);
-		ImageIcon obj = new ImageIcon(getClass().getResource("/logo.png"));
+		ImageIcon obj = new ImageIcon(getClass().getResource("/Les Icones/logo.png"));
 		super.setIconImage(obj.getImage());
 		contentPane.setLayout(null);
 
@@ -81,7 +81,7 @@ public class CompagnieVoirSuggestion extends JFrame {
 				dispose();
 			}
 		});
-		label_1.setIcon(new ImageIcon(getClass().getResource("/back.png")));
+		label_1.setIcon(new ImageIcon(getClass().getResource("/Les Icones/back.png")));
 		label_1.setBounds(10, 11, 46, 24);
 		contentPane.add(label_1);
 
@@ -109,7 +109,7 @@ public class CompagnieVoirSuggestion extends JFrame {
 				upadatetable();
 			}
 		});
-		btnVoirSuggestionDe.setIcon(new ImageIcon(getClass().getResource("/icons8-eye-22.png")));
+		btnVoirSuggestionDe.setIcon(new ImageIcon(getClass().getResource("/Les Icones/icons8-eye-22.png")));
 		btnVoirSuggestionDe.setFont(new Font("Lucida Fax", Font.BOLD | Font.ITALIC, 13));
 		btnVoirSuggestionDe.setBounds(20, 224, 232, 31);
 		contentPane.add(btnVoirSuggestionDe);
@@ -137,7 +137,7 @@ public class CompagnieVoirSuggestion extends JFrame {
 		contentPane.add(label_2);
 
 		JLabel label = new JLabel("");
-		label.setIcon(new ImageIcon(getClass().getResource("/GTAFE.png")));
+		label.setIcon(new ImageIcon(getClass().getResource("/Les Icones/GTAFE.png")));
 		label.setBounds(0, -57, 1200, 650);
 		contentPane.add(label);
 	}

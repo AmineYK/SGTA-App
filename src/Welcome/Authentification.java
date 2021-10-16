@@ -90,7 +90,7 @@ public class Authentification extends JFrame {
 		setLocationRelativeTo(null);
 		contentPane.setBorder(new EmptyBorder(5, 5, 5, 5));
 		setContentPane(contentPane);
-		ImageIcon obj = new ImageIcon(this.getClass().getResource("/logo.png"));
+		ImageIcon obj = new ImageIcon(this.getClass().getResource("/Les Icones/logo.png"));
 		super.setIconImage(obj.getImage());
 
 		contentPane.setLayout(null);
@@ -123,7 +123,7 @@ public class Authentification extends JFrame {
 				btnSinscrire.setBackground(new Color(105, 105, 105));
 			}
 		});
-		btnSinscrire.setIcon(new ImageIcon(getClass().getResource("/icons8-document-25.png")));
+		btnSinscrire.setIcon(new ImageIcon(getClass().getResource("/Les Icones/icons8-document-25.png")));
 		btnSinscrire.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
 				InscriptionOperateur obj = new InscriptionOperateur();
@@ -150,7 +150,7 @@ public class Authentification extends JFrame {
 				btnSeConnecter.setBackground(new Color(105, 105, 105));
 			}
 		});
-		btnSeConnecter.setIcon(new ImageIcon(getClass().getResource("/icons8-connexion-22 (1).png")));
+		btnSeConnecter.setIcon(new ImageIcon(getClass().getResource("/Les Icones/icons8-connexion-22 (1).png")));
 		btnSeConnecter.setFont(new Font("Lucida Console", Font.BOLD | Font.ITALIC, 11));
 		btnSeConnecter.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
@@ -229,7 +229,7 @@ public class Authentification extends JFrame {
 				button.setBackground(new Color(105, 105, 105));
 			}
 		});
-		button.setIcon(new ImageIcon(getClass().getResource("/icons8-connexion-22 (1).png")));
+		button.setIcon(new ImageIcon(getClass().getResource("/Les Icones/icons8-connexion-22 (1).png")));
 		button.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
 				String sql = "select * from operateurusers";
@@ -301,7 +301,7 @@ public class Authentification extends JFrame {
 				button_1.setBackground(new Color(105, 105, 105));
 			}
 		});
-		button_1.setIcon(new ImageIcon(getClass().getResource("/icons8-document-25.png")));
+		button_1.setIcon(new ImageIcon(getClass().getResource("/Les Icones/icons8-document-25.png")));
 		button_1.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
 				InscriptionCompagnie obj = new InscriptionCompagnie();
@@ -328,7 +328,7 @@ public class Authentification extends JFrame {
 				button_2.setBackground(new Color(105, 105, 105));
 			}
 		});
-		button_2.setIcon(new ImageIcon(getClass().getResource("/icons8-connexion-22 (1).png")));
+		button_2.setIcon(new ImageIcon(getClass().getResource("/Les Icones/icons8-connexion-22 (1).png")));
 		button_2.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
 				String sql5 = "select * from listenoir where nom ='" + nombox.getSelectedItem().toString() + "'";
@@ -558,7 +558,7 @@ public class Authentification extends JFrame {
 
 		JLabel label = new JLabel("");
 		label.setFont(new Font("Kristen ITC", Font.BOLD | Font.ITALIC, 13));
-		label.setIcon(new ImageIcon(getClass().getResource("/GTAFE.png")));
+		label.setIcon(new ImageIcon(getClass().getResource("/Les Icones/GTAFE.png")));
 		label.setBounds(0, -57, 1200, 650);
 		contentPane.add(label);
 	}

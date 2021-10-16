@@ -81,7 +81,7 @@ public class OperateurSuggestionDates extends JFrame {
 		contentPane = new JPanel();
 		contentPane.setBorder(new EmptyBorder(5, 5, 5, 5));
 		setContentPane(contentPane);
-		ImageIcon obj = new ImageIcon(getClass().getResource("/logo.png"));
+		ImageIcon obj = new ImageIcon(getClass().getResource("/Les Icones/logo.png"));
 		super.setIconImage(obj.getImage());
 		contentPane.setLayout(null);
 		cnx = ConnexionMySql.ConnectionDB();
@@ -96,7 +96,7 @@ public class OperateurSuggestionDates extends JFrame {
 				dispose();
 			}
 		});
-		label_1.setIcon(new ImageIcon(getClass().getResource("/back.png")));
+		label_1.setIcon(new ImageIcon(getClass().getResource("/Les Icones/back.png")));
 		label_1.setBounds(10, 11, 36, 24);
 		contentPane.add(label_1);
 		// remplirpistes();
@@ -184,7 +184,7 @@ public class OperateurSuggestionDates extends JFrame {
 				}
 			}
 		});
-		button.setIcon(new ImageIcon(getClass().getResource("/icons8-bouton-de-radio-coch\u00E9-22.png")));
+		button.setIcon(new ImageIcon(getClass().getResource("/Les Icones/icons8-bouton-de-radio-coch\u00E9-22.png")));
 		button.setFont(new Font("Lucida Fax", Font.BOLD | Font.ITALIC, 12));
 		button.setBounds(32, 423, 131, 31);
 		panel.add(button);
@@ -203,7 +203,7 @@ public class OperateurSuggestionDates extends JFrame {
 				button_1.setBackground(new Color(105, 105, 105));
 			}
 		});
-		button_1.setIcon(new ImageIcon(getClass().getResource("/icons8-annuler-22.png")));
+		button_1.setIcon(new ImageIcon(getClass().getResource("/Les Icones/icons8-annuler-22.png")));
 		button_1.setFont(new Font("Lucida Fax", Font.BOLD | Font.ITALIC, 12));
 		button_1.setBounds(206, 423, 131, 31);
 		panel.add(button_1);
@@ -250,7 +250,7 @@ public class OperateurSuggestionDates extends JFrame {
 				updatetable();
 			}
 		});
-		btnVoirLesDemandes.setIcon(new ImageIcon(getClass().getResource("/icons8-eye-22.png")));
+		btnVoirLesDemandes.setIcon(new ImageIcon(getClass().getResource("/Les Icones/icons8-eye-22.png")));
 		btnVoirLesDemandes.setFont(new Font("Lucida Fax", Font.BOLD | Font.ITALIC, 12));
 		btnVoirLesDemandes.setBounds(170, 5, 247, 32);
 		panel_2.add(btnVoirLesDemandes);
@@ -317,7 +317,7 @@ public class OperateurSuggestionDates extends JFrame {
 
 			}
 		});
-		btnVoirLesPistes.setIcon(new ImageIcon(getClass().getResource("/icons8-eye-22.png")));
+		btnVoirLesPistes.setIcon(new ImageIcon(getClass().getResource("/Les Icones/icons8-eye-22.png")));
 		btnVoirLesPistes.setFont(new Font("Lucida Fax", Font.BOLD | Font.ITALIC, 12));
 		btnVoirLesPistes.setBounds(586, 11, 226, 25);
 		contentPane.add(btnVoirLesPistes);
@@ -347,14 +347,14 @@ public class OperateurSuggestionDates extends JFrame {
 				obj.setVisible(true);
 			}
 		});
-		btnConfirmerLesPistes.setIcon(new ImageIcon(getClass().getResource("/icons8-eye-22.png")));
+		btnConfirmerLesPistes.setIcon(new ImageIcon(getClass().getResource("/Les Icones/icons8-eye-22.png")));
 		btnConfirmerLesPistes.setFont(new Font("Lucida Fax", Font.BOLD | Font.ITALIC, 11));
 		btnConfirmerLesPistes.setBackground(new Color(153, 255, 255));
 		btnConfirmerLesPistes.setBounds(613, 462, 181, 25);
 		contentPane.add(btnConfirmerLesPistes);
 
 		JLabel label = new JLabel("");
-		label.setIcon(new ImageIcon(getClass().getResource("/GTAFE.png")));
+		label.setIcon(new ImageIcon(getClass().getResource("/Les Icones/GTAFE.png")));
 		label.setBounds(0, -54, 1200, 650);
 		contentPane.add(label);
 	}

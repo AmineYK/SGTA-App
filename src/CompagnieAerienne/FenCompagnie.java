@@ -84,7 +84,7 @@ public class FenCompagnie extends JFrame {
 		contentPane = new JPanel();
 		contentPane.setBorder(new EmptyBorder(5, 5, 5, 5));
 		setContentPane(contentPane);
-		ImageIcon obj = new ImageIcon(getClass().getResource("/logo.png"));
+		ImageIcon obj = new ImageIcon(getClass().getResource("/Les Icones/logo.png"));
 		super.setIconImage(obj.getImage());
 		contentPane.setLayout(null);
 		cnx = ConnexionMySql.ConnectionDB();
@@ -107,7 +107,7 @@ public class FenCompagnie extends JFrame {
 		// mnGestionDesMembres.setAccelerator(KeyStroke.getKeyStroke(KeyEvent.VK_M,KeyEvent.CTRL_DOWN_MASK));
 		mnGestionDesMembres.setBackground(Color.WHITE);
 		mnGestionDesMembres
-				.setIcon(new ImageIcon(getClass().getResource("/icons8-casquette-de-pilote-de-l'air-25.png")));
+				.setIcon(new ImageIcon(getClass().getResource("/Les Icones/icons8-casquette-de-pilote-de-l'air-25.png")));
 		mnGestionDesMembres.setFont(new Font("Lucida Console", Font.BOLD | Font.ITALIC, 12));
 		menuBar.add(mnGestionDesMembres);
 
@@ -126,7 +126,7 @@ public class FenCompagnie extends JFrame {
 				mnGestionDesAronefs.setToolTipText("Gestion des Aeronefs.....");
 			}
 		});
-		mnGestionDesAronefs.setIcon(new ImageIcon(getClass().getResource("/icons8-mode-avion-on-25.png")));
+		mnGestionDesAronefs.setIcon(new ImageIcon(getClass().getResource("/Les Icones/icons8-mode-avion-on-25.png")));
 		mnGestionDesAronefs.setFont(new Font("Lucida Console", Font.BOLD | Font.ITALIC, 12));
 		menuBar.add(mnGestionDesAronefs);
 
@@ -146,7 +146,7 @@ public class FenCompagnie extends JFrame {
 			}
 		});
 		mnGestionsDesVols.setIcon(new ImageIcon(
-				"C:\\Users\\m2k\\Desktop\\Amine YKh\\amine\\PROJET GL\\Les Icones\\icons8-british-airways-25 (1).png"));
+				"/Les Icones/icons8-british-airways-25 (1).png"));
 		mnGestionsDesVols.setFont(new Font("Lucida Console", Font.BOLD | Font.ITALIC, 12));
 		menuBar.add(mnGestionsDesVols);
 
@@ -158,7 +158,7 @@ public class FenCompagnie extends JFrame {
 			}
 		});
 		mnNotifications.setMnemonic('N');
-		mnNotifications.setIcon(new ImageIcon(getClass().getResource("/icons8-cloche-22.png")));
+		mnNotifications.setIcon(new ImageIcon(getClass().getResource("/Les Icones/icons8-cloche-22.png")));
 		mnNotifications.setFont(new Font("Lucida Console", Font.BOLD | Font.ITALIC, 12));
 		menuBar.add(mnNotifications);
 
@@ -212,7 +212,7 @@ public class FenCompagnie extends JFrame {
 			}
 
 		});
-		btnDemanderPiste.setIcon(new ImageIcon(getClass().getResource("/icons8-editer-le-fichier-22.png")));
+		btnDemanderPiste.setIcon(new ImageIcon(getClass().getResource("/Les Icones/icons8-editer-le-fichier-22.png")));
 		btnDemanderPiste.setFont(new Font("Lucida Console", Font.BOLD | Font.ITALIC, 11));
 		btnDemanderPiste.setBounds(87, 11, 191, 31);
 		panel.add(btnDemanderPiste);
@@ -316,7 +316,7 @@ public class FenCompagnie extends JFrame {
 
 			}
 		});
-		btnVoirReponse.setIcon(new ImageIcon(getClass().getResource("/icons8-eye-22.png")));
+		btnVoirReponse.setIcon(new ImageIcon(getClass().getResource("/Les Icones/icons8-eye-22.png")));
 		btnVoirReponse.setFont(new Font("Lucida Console", Font.BOLD | Font.ITALIC, 11));
 		btnVoirReponse.setBounds(87, 363, 191, 31);
 		panel.add(btnVoirReponse);
@@ -353,7 +353,7 @@ public class FenCompagnie extends JFrame {
 				}
 			}
 		});
-		btnVoirNombreDe.setIcon(new ImageIcon(getClass().getResource("/icons8-eye-22.png")));
+		btnVoirNombreDe.setIcon(new ImageIcon(getClass().getResource("/Les Icones/icons8-eye-22.png")));
 		btnVoirNombreDe.setFont(new Font("Lucida Console", Font.BOLD | Font.ITALIC, 11));
 		btnVoirNombreDe.setBounds(55, 405, 263, 31);
 		panel.add(btnVoirNombreDe);
@@ -384,7 +384,7 @@ public class FenCompagnie extends JFrame {
 				updatetable1();
 			}
 		});
-		btnVoirFacture.setIcon(new ImageIcon(getClass().getResource("/icons8-facture-22.png")));
+		btnVoirFacture.setIcon(new ImageIcon(getClass().getResource("/Les Icones/icons8-facture-22.png")));
 		btnVoirFacture.setBounds(97, 11, 175, 31);
 		btnVoirFacture.setFont(new Font("Lucida Console", Font.BOLD | Font.ITALIC, 12));
 		panel_1.add(btnVoirFacture);
@@ -427,7 +427,7 @@ public class FenCompagnie extends JFrame {
 				}
 			}
 		});
-		btnPayer.setIcon(new ImageIcon(getClass().getResource("/icons8-payer-par-carte-22.png")));
+		btnPayer.setIcon(new ImageIcon(getClass().getResource("/Les Icones/icons8-payer-par-carte-22.png")));
 		btnPayer.setBounds(151, 405, 104, 31);
 		panel_1.add(btnPayer);
 		btnPayer.setFont(new Font("Lucida Console", Font.BOLD | Font.ITALIC, 12));
@@ -467,7 +467,7 @@ public class FenCompagnie extends JFrame {
 				updatetable();
 			}
 		});
-		btnVoirListeDes.setIcon(new ImageIcon(getClass().getResource("/icons8-eye-22.png")));
+		btnVoirListeDes.setIcon(new ImageIcon(getClass().getResource("/Les Icones/icons8-eye-22.png")));
 		btnVoirListeDes.setFont(new Font("Lucida Console", Font.BOLD | Font.ITALIC, 12));
 		btnVoirListeDes.setBounds(10, 11, 396, 31);
 		panel_2.add(btnVoirListeDes);
@@ -503,7 +503,7 @@ public class FenCompagnie extends JFrame {
 
 			}
 		});
-		btnEmmetreDesDemandes.setIcon(new ImageIcon(getClass().getResource("/icons8-document-22.png")));
+		btnEmmetreDesDemandes.setIcon(new ImageIcon(getClass().getResource("/Les Icones/icons8-document-22.png")));
 		btnEmmetreDesDemandes.setFont(new Font("Lucida Console", Font.BOLD | Font.ITALIC, 11));
 		btnEmmetreDesDemandes.setBounds(434, 30, 334, 31);
 		contentPane.add(btnEmmetreDesDemandes);
@@ -519,12 +519,12 @@ public class FenCompagnie extends JFrame {
 				}
 			}
 		});
-		label_1.setIcon(new ImageIcon(getClass().getResource("/button_turn_on_15006.png")));
+		label_1.setIcon(new ImageIcon(getClass().getResource("/Les Icones/button_turn_on_15006.png")));
 		label_1.setBounds(5, 21, 41, 46);
 		contentPane.add(label_1);
 
 		JLabel label = new JLabel("");
-		label.setIcon(new ImageIcon(getClass().getResource("/GTAFE.png")));
+		label.setIcon(new ImageIcon(getClass().getResource("/Les Icones/GTAFE.png")));
 		label.setBounds(0, -53, 1200, 650);
 		contentPane.add(label);
 	}

@@ -55,7 +55,7 @@ public class Welcome extends JFrame {
 		contentPane = new JPanel();
 		contentPane.setBorder(new EmptyBorder(5, 5, 5, 5));
 		setContentPane(contentPane);
-		ImageIcon obj = new ImageIcon(getClass().getResource("/logo.png"));
+		ImageIcon obj = new ImageIcon(getClass().getResource("/Les Icones/logo.png"));
 		super.setIconImage(obj.getImage());
 		contentPane.setLayout(null);
 		setLocationRelativeTo(null);
@@ -74,7 +74,7 @@ public class Welcome extends JFrame {
 			}
 
 		});
-		btnContinuer.setIcon(new ImageIcon(getClass().getResource("/icons8-trier-\u00E0-droite-25.png")));
+		btnContinuer.setIcon(new ImageIcon(getClass().getResource("/Les Icones/icons8-trier-\u00E0-droite-25.png")));
 		btnContinuer.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
 				if(chckbxJaccepteLesConditions.isSelected()){
@@ -119,14 +119,14 @@ public class Welcome extends JFrame {
 				obj.setLocationRelativeTo(contentPane);
 			}
 		});
-		button.setIcon(new ImageIcon(getClass().getResource("/icons8-question-23.png")));
+		button.setIcon(new ImageIcon(getClass().getResource("/Les Icones/icons8-question-23.png")));
 		button.setFont(new Font("Lucida Fax", Font.BOLD | Font.ITALIC, 13));
 		button.setBounds(588, 316, 161, 30);
 		contentPane.add(button);
 		
 		JLabel label = new JLabel("");
 		label.setBackground(new Color(240, 240, 240));
-		label.setIcon(new ImageIcon(getClass().getResource("/134.png")));
+		label.setIcon(new ImageIcon(getClass().getResource("/Les Icones/134.png")));
 		label.setBounds(0, -101, 1380, 557);
 		contentPane.add(label);
 	}

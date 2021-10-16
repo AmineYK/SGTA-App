@@ -64,7 +64,7 @@ public class DirecteurGestionAeronefs extends JFrame {
 		setContentPane(contentPane);
 		contentPane.setLayout(null);
 		cnx = ConnexionMySql.ConnectionDB();
-		ImageIcon obj = new ImageIcon(getClass().getResource("logo.png"));
+		ImageIcon obj = new ImageIcon(getClass().getResource("/Les Icones/logo.png"));
 		super.setIconImage(obj.getImage());
 
 		JLabel label_1 = new JLabel("");
@@ -77,7 +77,7 @@ public class DirecteurGestionAeronefs extends JFrame {
 				dispose();
 			}
 		});
-		label_1.setIcon(new ImageIcon(getClass().getResource("back.png")));
+		label_1.setIcon(new ImageIcon(getClass().getResource("/Les Icones/back.png")));
 		label_1.setBounds(10, 0, 45, 34);
 		contentPane.add(label_1);
 
@@ -132,7 +132,7 @@ public class DirecteurGestionAeronefs extends JFrame {
 		scrollPane.setViewportView(aeronefstable);
 
 		JLabel label = new JLabel("");
-		label.setIcon(new ImageIcon(getClass().getResource("GTAFE.png")));
+		label.setIcon(new ImageIcon(getClass().getResource("/Les Icones/GTAFE.png")));
 		label.setBounds(0, -51, 1200, 650);
 		contentPane.add(label);
 	}

@@ -88,7 +88,7 @@ public class DirecteurGestionsVols extends JFrame {
 		contentPane = new JPanel();
 		contentPane.setBorder(new EmptyBorder(5, 5, 5, 5));
 		setContentPane(contentPane);
-		ImageIcon obj = new ImageIcon(getClass().getResource("/logo.png"));
+		ImageIcon obj = new ImageIcon(getClass().getResource("/Les Icones/logo.png"));
 		super.setIconImage(obj.getImage());
 		contentPane.setLayout(null);
 		cnx = ConnexionMySql.ConnectionDB();
@@ -103,7 +103,7 @@ public class DirecteurGestionsVols extends JFrame {
 				dispose();
 			}
 		});
-		label_1.setIcon(new ImageIcon(getClass().getResource("/back.png")));
+		label_1.setIcon(new ImageIcon(getClass().getResource("/Les Icones/back.png")));
 		label_1.setBounds(12, 5, 46, 25);
 		contentPane.add(label_1);
 
@@ -143,7 +143,7 @@ public class DirecteurGestionsVols extends JFrame {
 
 			}
 		});
-		btnVoirVolsDeja.setIcon(new ImageIcon(getClass().getResource("/icons8-eye-22.png")));
+		btnVoirVolsDeja.setIcon(new ImageIcon(getClass().getResource("/Les Icones/icons8-eye-22.png")));
 		btnVoirVolsDeja.setFont(new Font("Lucida Fax", Font.BOLD | Font.ITALIC, 13));
 		btnVoirVolsDeja.setBounds(276, 7, 223, 30);
 		panel.add(btnVoirVolsDeja);
@@ -178,7 +178,7 @@ public class DirecteurGestionsVols extends JFrame {
 				btnOrganiserUnVol.setBackground(new Color(105, 105, 105));
 			}
 		});
-		btnOrganiserUnVol.setIcon(new ImageIcon(getClass().getResource("/icons8-temps-22.png")));
+		btnOrganiserUnVol.setIcon(new ImageIcon(getClass().getResource("/Les Icones/icons8-temps-22.png")));
 		btnOrganiserUnVol.setFont(new Font("Lucida Fax", Font.BOLD | Font.ITALIC, 11));
 		btnOrganiserUnVol.setBounds(70, 11, 223, 23);
 		panel_2.add(btnOrganiserUnVol);
@@ -392,7 +392,7 @@ public class DirecteurGestionsVols extends JFrame {
 				}
 			}
 		});
-		btnConfirmer.setIcon(new ImageIcon(getClass().getResource("/icons8-bouton-de-radio-coch\u00E9-22.png")));
+		btnConfirmer.setIcon(new ImageIcon(getClass().getResource("/Les Icones/icons8-bouton-de-radio-coch\u00E9-22.png")));
 		btnConfirmer.setFont(new Font("Lucida Fax", Font.BOLD | Font.ITALIC, 12));
 		btnConfirmer.setBounds(31, 465, 125, 27);
 		panel_2.add(btnConfirmer);
@@ -421,7 +421,7 @@ public class DirecteurGestionsVols extends JFrame {
 				fretfield.setText("");
 			}
 		});
-		btnAnuuler.setIcon(new ImageIcon(getClass().getResource("/icons8-annuler-22.png")));
+		btnAnuuler.setIcon(new ImageIcon(getClass().getResource("/Les Icones/icons8-annuler-22.png")));
 		btnAnuuler.setFont(new Font("Lucida Fax", Font.BOLD | Font.ITALIC, 12));
 		btnAnuuler.setBounds(193, 465, 110, 27);
 		panel_2.add(btnAnuuler);
@@ -545,7 +545,7 @@ public class DirecteurGestionsVols extends JFrame {
 
 		JLabel label = new JLabel("");
 		label.setBounds(0, -52, 1200, 650);
-		label.setIcon(new ImageIcon(getClass().getResource("/GTAFE.png")));
+		label.setIcon(new ImageIcon(getClass().getResource("/Les Icones/GTAFE.png")));
 		contentPane.add(label);
 	}
 

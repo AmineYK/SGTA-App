@@ -82,7 +82,7 @@ public class CompagnieGestionEquipage extends JFrame {
 		contentPane = new JPanel();
 		contentPane.setBorder(new EmptyBorder(5, 5, 5, 5));
 		setContentPane(contentPane);
-		ImageIcon obj = new ImageIcon(getClass().getResource("/logo.png"));
+		ImageIcon obj = new ImageIcon(getClass().getResource("/Les Icones/logo.png"));
 		super.setIconImage(obj.getImage());
 		contentPane.setLayout(null);
 		cnx=ConnexionMySql.ConnectionDB();
@@ -98,7 +98,7 @@ public class CompagnieGestionEquipage extends JFrame {
 			dispose();
 			}
 		});
-		label_1.setIcon(new ImageIcon(getClass().getResource("/back.png")));
+		label_1.setIcon(new ImageIcon(getClass().getResource("/Les Icones/back.png")));
 		label_1.setBounds(10, 11, 46, 24);
 		contentPane.add(label_1);
 		
@@ -159,7 +159,7 @@ public class CompagnieGestionEquipage extends JFrame {
 				
 				}
 		});
-		btnAjouter.setIcon(new ImageIcon(getClass().getResource("/icons8-ajouter-22.png")));
+		btnAjouter.setIcon(new ImageIcon(getClass().getResource("/Les Icones/icons8-ajouter-22.png")));
 		btnAjouter.setFont(new Font("Lucida Fax", Font.BOLD | Font.ITALIC, 12));
 		btnAjouter.setBounds(10, 422, 113, 31);
 		panel.add(btnAjouter);
@@ -204,7 +204,7 @@ public class CompagnieGestionEquipage extends JFrame {
 			}
 			}}
 		});
-		btnSupprimer.setIcon(new ImageIcon(getClass().getResource("/icons8-supprimer-22.png")));
+		btnSupprimer.setIcon(new ImageIcon(getClass().getResource("/Les Icones/icons8-supprimer-22.png")));
 		btnSupprimer.setFont(new Font("Lucida Fax", Font.BOLD | Font.ITALIC, 12));
 		btnSupprimer.setBounds(152, 422, 140, 31);
 		panel.add(btnSupprimer);
@@ -260,7 +260,7 @@ public class CompagnieGestionEquipage extends JFrame {
 				}
 			}
 		});
-		btnModifier.setIcon(new ImageIcon(getClass().getResource("/icons8-modifier-22.png")));
+		btnModifier.setIcon(new ImageIcon(getClass().getResource("/Les Icones/icons8-modifier-22.png")));
 		btnModifier.setFont(new Font("Lucida Fax", Font.BOLD | Font.ITALIC, 12));
 		btnModifier.setBounds(325, 422, 121, 31);
 		panel.add(btnModifier);
@@ -469,11 +469,11 @@ public class CompagnieGestionEquipage extends JFrame {
 						}
 					}
 				});
-				button.setIcon(new ImageIcon(getClass().getResource("/icons8-eye-22.png")));
+				button.setIcon(new ImageIcon(getClass().getResource("/Les Icones/icons8-eye-22.png")));
 				button.setFont(new Font("Lucida Fax", Font.BOLD | Font.ITALIC, 12));
 				
 				JLabel label = new JLabel("");
-				label.setIcon(new ImageIcon(getClass().getResource("/GTAFE.png")));
+				label.setIcon(new ImageIcon(getClass().getResource("/Les Icones/GTAFE.png")));
 				label.setBounds(0, -52, 1200, 650);
 				contentPane.add(label);
 	}

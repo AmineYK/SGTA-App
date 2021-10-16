@@ -48,7 +48,7 @@ public class CompagnieLesDeuxFrames extends JFrame {
 		contentPane.setBackground(new Color(192, 192, 192));
 		contentPane.setBorder(new EmptyBorder(5, 5, 5, 5));
 		setContentPane(contentPane);
-		ImageIcon obj = new ImageIcon(getClass().getResource("/logo.png"));
+		ImageIcon obj = new ImageIcon(getClass().getResource("/Les Icones/logo.png"));
 		super.setIconImage(obj.getImage());
 		contentPane.setLayout(null);
 		
@@ -73,7 +73,7 @@ public class CompagnieLesDeuxFrames extends JFrame {
 				dispose();
 			}
 		});
-		btnFicheDinformations.setIcon(new ImageIcon(getClass().getResource("/icons8-information-22.png")));
+		btnFicheDinformations.setIcon(new ImageIcon(getClass().getResource("/Les Icones/icons8-information-22.png")));
 		btnFicheDinformations.setFont(new Font("Lucida Fax", Font.BOLD | Font.ITALIC, 12));
 		btnFicheDinformations.setBounds(147, 73, 206, 34);
 		contentPane.add(btnFicheDinformations);
@@ -99,7 +99,7 @@ public class CompagnieLesDeuxFrames extends JFrame {
 				dispose();
 			}
 		});
-		btnSuggestionDeDates.setIcon(new ImageIcon(getClass().getResource("/icons8-jusqu'\u00E0-la-date-22.png")));
+		btnSuggestionDeDates.setIcon(new ImageIcon(getClass().getResource("/Les Icones/icons8-jusqu'\u00E0-la-date-22.png")));
 		btnSuggestionDeDates.setFont(new Font("Lucida Fax", Font.BOLD | Font.ITALIC, 12));
 		btnSuggestionDeDates.setBounds(147, 209, 206, 34);
 		contentPane.add(btnSuggestionDeDates);
@@ -114,7 +114,7 @@ public class CompagnieLesDeuxFrames extends JFrame {
 			dispose();
 			}
 		});
-		label.setIcon(new ImageIcon(getClass().getResource("/back.png")));
+		label.setIcon(new ImageIcon(getClass().getResource("/Les Icones/back.png")));
 		label.setBounds(10, 11, 46, 24);
 		contentPane.add(label);
 	}

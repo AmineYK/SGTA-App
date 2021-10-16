@@ -98,7 +98,7 @@ public class CompagnieGestionvols extends JFrame {
 		contentPane = new JPanel();
 		contentPane.setBorder(new EmptyBorder(5, 5, 5, 5));
 		setContentPane(contentPane);
-		ImageIcon obj = new ImageIcon(getClass().getResource("/logo.png"));
+		ImageIcon obj = new ImageIcon(getClass().getResource("/Les Icones/logo.png"));
 		super.setIconImage(obj.getImage());
 		contentPane.setLayout(null);
 		cnx = ConnexionMySql.ConnectionDB();
@@ -113,7 +113,7 @@ public class CompagnieGestionvols extends JFrame {
 				dispose();
 			}
 		});
-		label_1.setIcon(new ImageIcon(getClass().getResource("/back.png")));
+		label_1.setIcon(new ImageIcon(getClass().getResource("/Les Icones/back.png")));
 		label_1.setBounds(10, 11, 46, 30);
 		contentPane.add(label_1);
 
@@ -218,7 +218,7 @@ public class CompagnieGestionvols extends JFrame {
 				}
 			}
 		});
-		btnAjouter.setIcon(new ImageIcon(getClass().getResource("/icons8-ajouter-22.png")));
+		btnAjouter.setIcon(new ImageIcon(getClass().getResource("/Les Icones/icons8-ajouter-22.png")));
 		btnAjouter.setFont(new Font("Lucida Fax", Font.BOLD | Font.ITALIC, 13));
 		btnAjouter.setBounds(256, 457, 153, 31);
 		panel.add(btnAjouter);
@@ -589,11 +589,11 @@ public class CompagnieGestionvols extends JFrame {
 		});
 		btnVoirLesVols.setBounds(861, 239, 209, 31);
 		contentPane.add(btnVoirLesVols);
-		btnVoirLesVols.setIcon(new ImageIcon(getClass().getResource("/icons8-eye-22.png")));
+		btnVoirLesVols.setIcon(new ImageIcon(getClass().getResource("/Les Icones/icons8-eye-22.png")));
 		btnVoirLesVols.setFont(new Font("Lucida Fax", Font.BOLD | Font.ITALIC, 13));
 
 		JLabel label = new JLabel("");
-		label.setIcon(new ImageIcon(getClass().getResource("/GTAFE.png")));
+		label.setIcon(new ImageIcon(getClass().getResource("/Les Icones/GTAFE.png")));
 		label.setBounds(0, -57, 1200, 650);
 		contentPane.add(label);
 	}

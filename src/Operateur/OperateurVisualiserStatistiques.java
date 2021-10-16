@@ -82,7 +82,7 @@ public class OperateurVisualiserStatistiques extends JFrame {
 		contentPane = new JPanel();
 		contentPane.setBorder(new EmptyBorder(5, 5, 5, 5));
 		setContentPane(contentPane);
-		ImageIcon obj = new ImageIcon(getClass().getResource("/logo.png"));
+		ImageIcon obj = new ImageIcon(getClass().getResource("/Les Icones/logo.png"));
 		super.setIconImage(obj.getImage());
 		contentPane.setLayout(null);
 		cnx = ConnexionMySql.ConnectionDB();
@@ -97,7 +97,7 @@ public class OperateurVisualiserStatistiques extends JFrame {
 				dispose();
 			}
 		});
-		label_1.setIcon(new ImageIcon(getClass().getResource("/back.png")));
+		label_1.setIcon(new ImageIcon(getClass().getResource("/Les Icones/back.png")));
 		label_1.setBounds(10, 11, 46, 24);
 		contentPane.add(label_1);
 
@@ -153,7 +153,7 @@ public class OperateurVisualiserStatistiques extends JFrame {
 				}
 			}
 		});
-		btnVoirNombresDaeronefs.setIcon(new ImageIcon(getClass().getResource("/icons8-eye-22.png")));
+		btnVoirNombresDaeronefs.setIcon(new ImageIcon(getClass().getResource("/Les Icones/icons8-eye-22.png")));
 		btnVoirNombresDaeronefs.setFont(new Font("Lucida Fax", Font.BOLD | Font.ITALIC, 11));
 		btnVoirNombresDaeronefs.setBounds(17, 70, 347, 26);
 		panel.add(btnVoirNombresDaeronefs);
@@ -227,7 +227,7 @@ public class OperateurVisualiserStatistiques extends JFrame {
 
 			}
 		});
-		btnVoirNombresDaeronefs_1.setIcon(new ImageIcon(getClass().getResource("/icons8-eye-22.png")));
+		btnVoirNombresDaeronefs_1.setIcon(new ImageIcon(getClass().getResource("/Les Icones/icons8-eye-22.png")));
 		btnVoirNombresDaeronefs_1.setFont(new Font("Lucida Fax", Font.BOLD | Font.ITALIC, 11));
 		btnVoirNombresDaeronefs_1.setBounds(17, 195, 347, 26);
 		panel.add(btnVoirNombresDaeronefs_1);
@@ -282,7 +282,7 @@ public class OperateurVisualiserStatistiques extends JFrame {
 				}
 			}
 		});
-		btnVoirNombresDaeronefs_2.setIcon(new ImageIcon(getClass().getResource("/icons8-eye-22.png")));
+		btnVoirNombresDaeronefs_2.setIcon(new ImageIcon(getClass().getResource("/Les Icones/icons8-eye-22.png")));
 		btnVoirNombresDaeronefs_2.setFont(new Font("Lucida Fax", Font.BOLD | Font.ITALIC, 11));
 		btnVoirNombresDaeronefs_2.setBounds(17, 277, 347, 26);
 		panel.add(btnVoirNombresDaeronefs_2);
@@ -336,7 +336,7 @@ public class OperateurVisualiserStatistiques extends JFrame {
 				}
 			}
 		});
-		btnVoirNombreDe.setIcon(new ImageIcon(getClass().getResource("/icons8-eye-22.png")));
+		btnVoirNombreDe.setIcon(new ImageIcon(getClass().getResource("/Les Icones/icons8-eye-22.png")));
 		btnVoirNombreDe.setFont(new Font("Lucida Fax", Font.BOLD | Font.ITALIC, 11));
 		btnVoirNombreDe.setBounds(17, 365, 347, 26);
 		panel.add(btnVoirNombreDe);
@@ -388,7 +388,7 @@ public class OperateurVisualiserStatistiques extends JFrame {
 		btnVoirNombreDe_1.setBounds(444, 487, 493, 26);
 		contentPane.add(btnVoirNombreDe_1);
 		btnVoirNombreDe_1.setFont(new Font("Lucida Fax", Font.BOLD | Font.ITALIC, 11));
-		btnVoirNombreDe_1.setIcon(new ImageIcon(getClass().getResource("/icons8-eye-22.png")));
+		btnVoirNombreDe_1.setIcon(new ImageIcon(getClass().getResource("/Les Icones/icons8-eye-22.png")));
 
 		compagniesfield = new JTextField();
 		compagniesfield.setFont(new Font("Lucida Fax", Font.BOLD | Font.ITALIC, 11));
@@ -431,7 +431,7 @@ public class OperateurVisualiserStatistiques extends JFrame {
 		});
 		btnVoirNombreDe_2.setBounds(116, 12, 279, 26);
 		contentPane.add(btnVoirNombreDe_2);
-		btnVoirNombreDe_2.setIcon(new ImageIcon(getClass().getResource("/icons8-eye-22.png")));
+		btnVoirNombreDe_2.setIcon(new ImageIcon(getClass().getResource("/Les Icones/icons8-eye-22.png")));
 		btnVoirNombreDe_2.setFont(new Font("Lucida Fax", Font.BOLD | Font.ITALIC, 11));
 
 		pistesfield = new JTextField();
@@ -460,7 +460,7 @@ public class OperateurVisualiserStatistiques extends JFrame {
 				btnVoirLeGraphe.setBackground(new Color(105, 105, 105));
 			}
 		});
-		btnVoirLeGraphe.setIcon(new ImageIcon(getClass().getResource("/icons8-eye-22.png")));
+		btnVoirLeGraphe.setIcon(new ImageIcon(getClass().getResource("/Les Icones/icons8-eye-22.png")));
 		btnVoirLeGraphe.setBounds(594, 11, 418, 31);
 		contentPane.add(btnVoirLeGraphe);
 		btnVoirLeGraphe.addActionListener(new ActionListener() {
@@ -495,7 +495,7 @@ public class OperateurVisualiserStatistiques extends JFrame {
 		btnVoirLeGraphe.setFont(new Font("Lucida Fax", Font.BOLD | Font.ITALIC, 14));
 
 		JLabel label = new JLabel("");
-		label.setIcon(new ImageIcon(getClass().getResource("/GTAFE.png")));
+		label.setIcon(new ImageIcon(getClass().getResource("/Les Icones/GTAFE.png")));
 		label.setBounds(0, -57, 1200, 650);
 		contentPane.add(label);
 	}

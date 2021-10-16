@@ -79,7 +79,7 @@ public class OperateurGestionPistes extends JFrame {
 		contentPane = new JPanel();
 		contentPane.setBorder(new EmptyBorder(5, 5, 5, 5));
 		setContentPane(contentPane);
-		ImageIcon obj = new ImageIcon(getClass().getResource("/logo.png"));
+		ImageIcon obj = new ImageIcon(getClass().getResource("/Les Icones/logo.png"));
 		super.setIconImage(obj.getImage());
 		contentPane.setLayout(null);
 		cnx = ConnexionMySql.ConnectionDB();
@@ -95,7 +95,7 @@ public class OperateurGestionPistes extends JFrame {
 				dispose();
 			}
 		});
-		label_1.setIcon(new ImageIcon(getClass().getResource("/back.png")));
+		label_1.setIcon(new ImageIcon(getClass().getResource("/Les Icones/back.png")));
 		label_1.setBounds(10, 0, 46, 33);
 		contentPane.add(label_1);
 
@@ -157,7 +157,7 @@ public class OperateurGestionPistes extends JFrame {
 				}
 			}
 		});
-		btnAjouter.setIcon(new ImageIcon(getClass().getResource("/icons8-ajouter-22.png")));
+		btnAjouter.setIcon(new ImageIcon(getClass().getResource("/Les Icones/icons8-ajouter-22.png")));
 		btnAjouter.setFont(new Font("Lucida Fax", Font.BOLD | Font.ITALIC, 12));
 		btnAjouter.setBounds(10, 428, 109, 30);
 		panel.add(btnAjouter);
@@ -201,7 +201,7 @@ public class OperateurGestionPistes extends JFrame {
 
 			}
 		});
-		btnSupprimer.setIcon(new ImageIcon(getClass().getResource("/icons8-supprimer-22.png")));
+		btnSupprimer.setIcon(new ImageIcon(getClass().getResource("/Les Icones/icons8-supprimer-22.png")));
 		btnSupprimer.setFont(new Font("Lucida Fax", Font.BOLD | Font.ITALIC, 12));
 		btnSupprimer.setBounds(142, 428, 139, 30);
 		panel.add(btnSupprimer);
@@ -252,7 +252,7 @@ public class OperateurGestionPistes extends JFrame {
 				}
 			}
 		});
-		btnModifier.setIcon(new ImageIcon(getClass().getResource("/icons8-modifier-22.png")));
+		btnModifier.setIcon(new ImageIcon(getClass().getResource("/Les Icones/icons8-modifier-22.png")));
 		btnModifier.setFont(new Font("Lucida Fax", Font.BOLD | Font.ITALIC, 12));
 		btnModifier.setBounds(312, 428, 119, 30);
 		panel.add(btnModifier);
@@ -365,7 +365,7 @@ public class OperateurGestionPistes extends JFrame {
 				updatetable();
 			}
 		});
-		btnVoirLesPistes.setIcon(new ImageIcon(getClass().getResource("/icons8-eye-22.png")));
+		btnVoirLesPistes.setIcon(new ImageIcon(getClass().getResource("/Les Icones/icons8-eye-22.png")));
 		btnVoirLesPistes.setFont(new Font("Lucida Fax", Font.BOLD | Font.ITALIC, 13));
 		btnVoirLesPistes.setBounds(106, 9, 236, 32);
 		panel_1.add(btnVoirLesPistes);
@@ -422,13 +422,13 @@ public class OperateurGestionPistes extends JFrame {
 				btnSignalerProblemes.setBackground(new Color(105, 105, 105));
 			}
 		});
-		btnSignalerProblemes.setIcon(new ImageIcon(getClass().getResource("/icons8-caisse-\u00E0-outils-22.png")));
+		btnSignalerProblemes.setIcon(new ImageIcon(getClass().getResource("/Les Icones/icons8-caisse-\u00E0-outils-22.png")));
 		btnSignalerProblemes.setFont(new Font("Lucida Fax", Font.BOLD | Font.ITALIC, 11));
 		btnSignalerProblemes.setBounds(507, 264, 182, 33);
 		contentPane.add(btnSignalerProblemes);
 
 		JLabel label = new JLabel("");
-		label.setIcon(new ImageIcon(getClass().getResource("/GTAFE.png")));
+		label.setIcon(new ImageIcon(getClass().getResource("/Les Icones/GTAFE.png")));
 		label.setBounds(0, -29, 1200, 560);
 		contentPane.add(label);
 	}

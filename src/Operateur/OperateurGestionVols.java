@@ -65,7 +65,7 @@ public class OperateurGestionVols extends JFrame {
 		contentPane = new JPanel();
 		contentPane.setBorder(new EmptyBorder(5, 5, 5, 5));
 		setContentPane(contentPane);
-		ImageIcon obj = new ImageIcon(getClass().getResource("/logo.png"));
+		ImageIcon obj = new ImageIcon(getClass().getResource("/Les Icones/logo.png"));
 		super.setIconImage(obj.getImage());
 		contentPane.setLayout(null);
 		cnx = ConnexionMySql.ConnectionDB();
@@ -79,7 +79,7 @@ public class OperateurGestionVols extends JFrame {
 				dispose();
 			}
 		});
-		label_1.setIcon(new ImageIcon(getClass().getResource("/back.png")));
+		label_1.setIcon(new ImageIcon(getClass().getResource("/Les Icones/back.png")));
 		label_1.setBounds(10, 0, 46, 40);
 		contentPane.add(label_1);
 
@@ -118,7 +118,7 @@ public class OperateurGestionVols extends JFrame {
 				}
 			}
 		});
-		button_3.setIcon(new ImageIcon(getClass().getResource("/icons8-eye-22.png")));
+		button_3.setIcon(new ImageIcon(getClass().getResource("/Les Icones/icons8-eye-22.png")));
 		button_3.setFont(new Font("Lucida Fax", Font.BOLD | Font.ITALIC, 13));
 		button_3.setBounds(397, 7, 164, 34);
 		panel_1.add(button_3);
@@ -133,7 +133,7 @@ public class OperateurGestionVols extends JFrame {
 		scrollPane.setViewportView(volstable);
 
 		JLabel label = new JLabel("");
-		label.setIcon(new ImageIcon(getClass().getResource("/GTAFE.png")));
+		label.setIcon(new ImageIcon(getClass().getResource("/Les Icones/GTAFE.png")));
 		label.setBounds(0, -57, 1200, 650);
 		contentPane.add(label);
 	}

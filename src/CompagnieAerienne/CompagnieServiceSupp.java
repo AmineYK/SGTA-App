@@ -63,7 +63,7 @@ public class CompagnieServiceSupp extends JFrame {
 		contentPane.setBackground(Color.GRAY);
 		contentPane.setBorder(new EmptyBorder(5, 5, 5, 5));
 		setContentPane(contentPane);
-		ImageIcon obj = new ImageIcon(getClass().getResource("/logo.png"));
+		ImageIcon obj = new ImageIcon(getClass().getResource("/Les Icones/logo.png"));
 		super.setIconImage(obj.getImage());
 		contentPane.setLayout(null);
 		cnx2 = ConnexionMySql.ConnectionDB();
@@ -143,7 +143,7 @@ public class CompagnieServiceSupp extends JFrame {
 				}
 			}
 		});
-		btnEnvoyer.setIcon(new ImageIcon(getClass().getResource("/icons8-envoyer-22.png")));
+		btnEnvoyer.setIcon(new ImageIcon(getClass().getResource("/Les Icones/icons8-envoyer-22.png")));
 		btnEnvoyer.setFont(new Font("Lucida Fax", Font.BOLD | Font.ITALIC, 14));
 		btnEnvoyer.setBounds(132, 399, 141, 33);
 		panel.add(btnEnvoyer);

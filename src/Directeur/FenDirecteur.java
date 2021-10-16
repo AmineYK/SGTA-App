@@ -86,7 +86,7 @@ public class FenDirecteur extends JFrame {
 		setLocationRelativeTo(null);
 		contentPane.setBorder(new EmptyBorder(5, 5, 5, 5));
 		setContentPane(contentPane);
-		ImageIcon obj = new ImageIcon(getClass().getResource("/logo.png"));
+		ImageIcon obj = new ImageIcon(getClass().getResource("/Les Icones/logo.png"));
 		super.setIconImage(obj.getImage());
 		contentPane.setLayout(null);
 		cnx = ConnexionMySql.ConnectionDB();
@@ -116,7 +116,7 @@ public class FenDirecteur extends JFrame {
 				mnNewMenu.setBackground(Color.white);
 			}
 		});
-		mnNewMenu.setIcon(new ImageIcon(getClass().getResource("/icons8-mode-avion-on-25.png")));
+		mnNewMenu.setIcon(new ImageIcon(getClass().getResource("/Les Icones/icons8-mode-avion-on-25.png")));
 		mnNewMenu.setFont(new Font("Lucida Console", Font.BOLD | Font.ITALIC, 12));
 		menuBar.add(mnNewMenu);
 
@@ -134,7 +134,7 @@ public class FenDirecteur extends JFrame {
 				mnGestionDesVols.setToolTipText("Gestion des Vols....");
 			}
 		});
-		mnGestionDesVols.setIcon(new ImageIcon(getClass().getResource("/icons8-british-airways-25 (1).png")));
+		mnGestionDesVols.setIcon(new ImageIcon(getClass().getResource("/Les Icones/icons8-british-airways-25 (1).png")));
 		mnGestionDesVols.setFont(new Font("Lucida Console", Font.BOLD | Font.ITALIC, 12));
 		menuBar.add(mnGestionDesVols);
 
@@ -152,7 +152,7 @@ public class FenDirecteur extends JFrame {
 				mnGestionDesPistes.setToolTipText("Gestion des Pistes....");
 			}
 		});
-		mnGestionDesPistes.setIcon(new ImageIcon(getClass().getResource("/icons8-piste-22 (1).png")));
+		mnGestionDesPistes.setIcon(new ImageIcon(getClass().getResource("/Les Icones/icons8-piste-22 (1).png")));
 		menuBar.add(mnGestionDesPistes);
 		mnGestionDesPistes.setFont(new Font("Lucida Console", Font.BOLD | Font.ITALIC, 12));
 
@@ -170,7 +170,7 @@ public class FenDirecteur extends JFrame {
 				mnGestionDeLoperateur.setToolTipText("Gestion de l'Operateur....");
 			}
 		});
-		mnGestionDeLoperateur.setIcon(new ImageIcon(getClass().getResource("/icons8-utilisateur-22.png")));
+		mnGestionDeLoperateur.setIcon(new ImageIcon(getClass().getResource("/Les Icones/icons8-utilisateur-22.png")));
 		mnGestionDeLoperateur.setFont(new Font("Lucida Console", Font.BOLD | Font.ITALIC, 12));
 		menuBar.add(mnGestionDeLoperateur);
 
@@ -188,7 +188,7 @@ public class FenDirecteur extends JFrame {
 				mnGestion.setToolTipText("Gestion des Compagnies....");
 			}
 		});
-		mnGestion.setIcon(new ImageIcon(getClass().getResource("/icons8-avion-hublot-ouvert-22.png")));
+		mnGestion.setIcon(new ImageIcon(getClass().getResource("/Les Icones/icons8-avion-hublot-ouvert-22.png")));
 		menuBar.add(mnGestion);
 		mnGestion.setFont(new Font("Lucida Console", Font.BOLD | Font.ITALIC, 12));
 
@@ -221,7 +221,7 @@ public class FenDirecteur extends JFrame {
 				}
 			}
 		});
-		btnVoirLeFret.setIcon(new ImageIcon(getClass().getResource("/icons8-eye-22.png")));
+		btnVoirLeFret.setIcon(new ImageIcon(getClass().getResource("/Les Icones/icons8-eye-22.png")));
 		btnVoirLeFret.setFont(new Font("Lucida Fax", Font.BOLD | Font.ITALIC, 13));
 		btnVoirLeFret.setBounds(70, 56, 214, 29);
 		contentPane.add(btnVoirLeFret);
@@ -285,7 +285,7 @@ public class FenDirecteur extends JFrame {
 
 			}
 		});
-		btnVoirLaCompagnie_1.setIcon(new ImageIcon(getClass().getResource("/icons8-eye-22.png")));
+		btnVoirLaCompagnie_1.setIcon(new ImageIcon(getClass().getResource("/Les Icones/icons8-eye-22.png")));
 		btnVoirLaCompagnie_1.setFont(new Font("Lucida Fax", Font.BOLD | Font.ITALIC, 14));
 		btnVoirLaCompagnie_1.setBounds(368, 56, 392, 29);
 		contentPane.add(btnVoirLaCompagnie_1);
@@ -331,7 +331,7 @@ public class FenDirecteur extends JFrame {
 
 			}
 		});
-		btnVoirLaCompagnie.setIcon(new ImageIcon(getClass().getResource("/icons8-eye-22.png")));
+		btnVoirLaCompagnie.setIcon(new ImageIcon(getClass().getResource("/Les Icones/icons8-eye-22.png")));
 		btnVoirLaCompagnie.setFont(new Font("Lucida Fax", Font.BOLD | Font.ITALIC, 14));
 		btnVoirLaCompagnie.setBounds(827, 56, 358, 29);
 		contentPane.add(btnVoirLaCompagnie);
@@ -385,7 +385,7 @@ public class FenDirecteur extends JFrame {
 			}
 		});
 		btnVoirListeDes.setBounds(10, 11, 320, 29);
-		btnVoirListeDes.setIcon(new ImageIcon(getClass().getResource("/icons8-eye-22.png")));
+		btnVoirListeDes.setIcon(new ImageIcon(getClass().getResource("/Les Icones/icons8-eye-22.png")));
 		btnVoirListeDes.setFont(new Font("Lucida Fax", Font.BOLD | Font.ITALIC, 13));
 		panel.add(btnVoirListeDes);
 
@@ -434,7 +434,7 @@ public class FenDirecteur extends JFrame {
 				}
 			}
 		});
-		btnVoirLes.setIcon(new ImageIcon(getClass().getResource("/icons8-eye-22.png")));
+		btnVoirLes.setIcon(new ImageIcon(getClass().getResource("/Les Icones/icons8-eye-22.png")));
 		btnVoirLes.setBounds(23, 11, 292, 28);
 		btnVoirLes.setFont(new Font("Lucida Fax", Font.BOLD | Font.ITALIC, 13));
 		panel_1.add(btnVoirLes);
@@ -474,7 +474,7 @@ public class FenDirecteur extends JFrame {
 				updatetable();
 			}
 		});
-		btnVoirListeNoir.setIcon(new ImageIcon(getClass().getResource("/icons8-eye-22.png")));
+		btnVoirListeNoir.setIcon(new ImageIcon(getClass().getResource("/Les Icones/icons8-eye-22.png")));
 		btnVoirListeNoir.setFont(new Font("Lucida Fax", Font.BOLD | Font.ITALIC, 14));
 		btnVoirListeNoir.setBounds(148, 11, 182, 31);
 		panel_2.add(btnVoirListeNoir);
@@ -501,7 +501,7 @@ public class FenDirecteur extends JFrame {
 
 			}
 		});
-		btnAjouter.setIcon(new ImageIcon(getClass().getResource("/icons8-ajouter-22.png")));
+		btnAjouter.setIcon(new ImageIcon(getClass().getResource("/Les Icones/icons8-ajouter-22.png")));
 		btnAjouter.setFont(new Font("Lucida Fax", Font.BOLD | Font.ITALIC, 13));
 		btnAjouter.setBounds(60, 340, 131, 26);
 		panel_2.add(btnAjouter);
@@ -546,7 +546,7 @@ public class FenDirecteur extends JFrame {
 				}
 			}
 		});
-		btnSupprimer.setIcon(new ImageIcon(getClass().getResource("/icons8-supprimer-22.png")));
+		btnSupprimer.setIcon(new ImageIcon(getClass().getResource("/Les Icones/icons8-supprimer-22.png")));
 		btnSupprimer.setFont(new Font("Lucida Fax", Font.BOLD | Font.ITALIC, 13));
 		btnSupprimer.setBounds(270, 340, 147, 26);
 		panel_2.add(btnSupprimer);
@@ -577,13 +577,13 @@ public class FenDirecteur extends JFrame {
 				}
 			}
 		});
-		label_1.setIcon(new ImageIcon(getClass().getResource("/button_turn_on_15006.png")));
+		label_1.setIcon(new ImageIcon(getClass().getResource("/Les Icones/button_turn_on_15006.png")));
 		label_1.setBounds(5, 27, 41, 46);
 		contentPane.add(label_1);
 
 		JLabel fondecran = new JLabel("");
 		fondecran.setBackground(Color.LIGHT_GRAY);
-		fondecran.setIcon(new ImageIcon(getClass().getResource("/GTAFE.png")));
+		fondecran.setIcon(new ImageIcon(getClass().getResource("/Les Icones/GTAFE.png")));
 		fondecran.setBounds(0, -51, 1200, 650);
 		contentPane.add(fondecran);
 	}

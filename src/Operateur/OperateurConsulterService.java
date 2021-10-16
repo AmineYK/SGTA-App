@@ -64,7 +64,7 @@ public class OperateurConsulterService extends JFrame {
 		contentPane.setBorder(new EmptyBorder(5, 5, 5, 5));
 		setContentPane(contentPane);
 		contentPane.setLayout(null);
-		ImageIcon obj = new ImageIcon(getClass().getResource("/logo.png"));
+		ImageIcon obj = new ImageIcon(getClass().getResource("/Les Icones/logo.png"));
 		super.setIconImage(obj.getImage());
 
 		JLabel label = new JLabel("");
@@ -77,7 +77,7 @@ public class OperateurConsulterService extends JFrame {
 				dispose();
 			}
 		});
-		label.setIcon(new ImageIcon(getClass().getResource("/back.png")));
+		label.setIcon(new ImageIcon(getClass().getResource("/Les Icones/back.png")));
 		label.setBounds(10, 8, 46, 33);
 		contentPane.add(label);
 
@@ -104,7 +104,7 @@ public class OperateurConsulterService extends JFrame {
 				btnVoir.setBackground(new Color(105, 105, 105));
 			}
 		});
-		btnVoir.setIcon(new ImageIcon(getClass().getResource("/icons8-eye-22.png")));
+		btnVoir.setIcon(new ImageIcon(getClass().getResource("/Les Icones/icons8-eye-22.png")));
 		btnVoir.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
 				updatetable();

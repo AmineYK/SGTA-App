@@ -118,7 +118,7 @@ public class SplashEteindre extends JFrame {
 		contentPane.add(lblVersion);
 		
 		JLabel label = new JLabel("");
-		label.setIcon(new ImageIcon(getClass().getResource("/1.gif")));
+		label.setIcon(new ImageIcon(getClass().getResource("/Les Icones/1.gif")));
 		label.setBounds(0, 0, 500, 281);
 		contentPane.add(label);
 	

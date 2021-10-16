@@ -66,7 +66,7 @@ public class OperateurAjouterPisteLibre extends JFrame {
 		contentPane.setBackground(Color.GRAY);
 		contentPane.setBorder(new EmptyBorder(5, 5, 5, 5));
 		setContentPane(contentPane);
-		ImageIcon obj = new ImageIcon(getClass().getResource("/logo.png"));
+		ImageIcon obj = new ImageIcon(getClass().getResource("/Les Icones/logo.png"));
 		super.setIconImage(obj.getImage());
 		contentPane.setLayout(null);
 
@@ -142,7 +142,7 @@ public class OperateurAjouterPisteLibre extends JFrame {
 		});
 		btnConfirmer.setBounds(15, 246, 159, 33);
 		panel.add(btnConfirmer);
-		btnConfirmer.setIcon(new ImageIcon(getClass().getResource("/icons8-bouton-de-radio-coch\u00E9-22.png")));
+		btnConfirmer.setIcon(new ImageIcon(getClass().getResource("/Les Icones/icons8-bouton-de-radio-coch\u00E9-22.png")));
 		btnConfirmer.setFont(new Font("Lucida Console", Font.BOLD | Font.ITALIC, 11));
 
 		JButton btnAnnuler = new JButton("Annuler");
@@ -166,7 +166,7 @@ public class OperateurAjouterPisteLibre extends JFrame {
 				dispose();
 			}
 		});
-		btnAnnuler.setIcon(new ImageIcon(getClass().getResource("/icons8-annuler-22.png")));
+		btnAnnuler.setIcon(new ImageIcon(getClass().getResource("/Les Icones/icons8-annuler-22.png")));
 		btnAnnuler.setFont(new Font("Lucida Console", Font.BOLD | Font.ITALIC, 11));
 	}
 

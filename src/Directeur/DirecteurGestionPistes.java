@@ -72,7 +72,7 @@ public class DirecteurGestionPistes extends JFrame {
 		setLocationRelativeTo(null);
 		contentPane.setBorder(new EmptyBorder(5, 5, 5, 5));
 		setContentPane(contentPane);
-		ImageIcon obj = new ImageIcon(getClass().getResource("/logo.png"));
+		ImageIcon obj = new ImageIcon(getClass().getResource("/Les Icones/logo.png"));
 		super.setIconImage(obj.getImage());
 		contentPane.setLayout(null);
 		cnx = ConnexionMySql.ConnectionDB();
@@ -86,7 +86,7 @@ public class DirecteurGestionPistes extends JFrame {
 				dispose();
 			}
 		});
-		lblNewLabel.setIcon(new ImageIcon(getClass().getResource("/back.png")));
+		lblNewLabel.setIcon(new ImageIcon(getClass().getResource("/Les Icones/back.png")));
 		lblNewLabel.setBounds(10, 0, 46, 35);
 		contentPane.add(lblNewLabel);
 
@@ -162,7 +162,7 @@ public class DirecteurGestionPistes extends JFrame {
 				}
 			}
 		});
-		btnVoirLesPistes.setIcon(new ImageIcon(getClass().getResource("/icons8-eye-22.png")));
+		btnVoirLesPistes.setIcon(new ImageIcon(getClass().getResource("/Les Icones/icons8-eye-22.png")));
 		btnVoirLesPistes.setFont(new Font("Lucida Fax", Font.BOLD | Font.ITALIC, 13));
 
 		JButton btnSignalerReparations = new JButton("Signaler Reparations \u00E0 faire");
@@ -206,7 +206,7 @@ public class DirecteurGestionPistes extends JFrame {
 				}
 			}
 		});
-		btnSignalerReparations.setIcon(new ImageIcon(getClass().getResource("/icons8-caisse-\u00E0-outils-22.png")));
+		btnSignalerReparations.setIcon(new ImageIcon(getClass().getResource("/Les Icones/icons8-caisse-\u00E0-outils-22.png")));
 		btnSignalerReparations.setFont(new Font("Lucida Fax", Font.BOLD | Font.ITALIC, 13));
 		btnSignalerReparations.setBounds(875, 379, 263, 31);
 		contentPane.add(btnSignalerReparations);
@@ -240,7 +240,7 @@ public class DirecteurGestionPistes extends JFrame {
 		contentPane.add(lblProblemes);
 
 		JLabel label = new JLabel("");
-		label.setIcon(new ImageIcon(getClass().getResource("/GTAFE.png")));
+		label.setIcon(new ImageIcon(getClass().getResource("/Les Icones/GTAFE.png")));
 		label.setBounds(0, -56, 1200, 650);
 		contentPane.add(label);
 	}

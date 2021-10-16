@@ -43,7 +43,7 @@ public class apropos extends JFrame {
 		contentPane = new JPanel();
 		contentPane.setBackground(new Color(220, 220, 220));
 		contentPane.setBorder(new EmptyBorder(5, 5, 5, 5));
-		ImageIcon obj = new ImageIcon(getClass().getResource("/logo.png"));
+		ImageIcon obj = new ImageIcon(getClass().getResource("/Les Icones/logo.png"));
 		super.setIconImage(obj.getImage());
 		setContentPane(contentPane);
 		contentPane.setLayout(null);
@@ -62,7 +62,7 @@ public class apropos extends JFrame {
 		contentPane.add(lblProjetGenieLogiciel);
 		
 		JLabel label = new JLabel("");
-		label.setIcon(new ImageIcon(getClass().getResource("/SGTA_logo1.jpg")));
+		label.setIcon(new ImageIcon(getClass().getResource("/Les Icones/SGTA_logo1.jpg")));
 		label.setBounds(70, 49, 258, 278);
 		contentPane.add(label);
 		

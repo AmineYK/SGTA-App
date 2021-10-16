@@ -101,7 +101,7 @@ public class OperateurFicheInformations extends JFrame {
 		contentPane = new JPanel();
 		contentPane.setBorder(new EmptyBorder(5, 5, 5, 5));
 		setContentPane(contentPane);
-		ImageIcon obj = new ImageIcon(getClass().getResource("/logo.png"));
+		ImageIcon obj = new ImageIcon(getClass().getResource("/Les Icones/logo.png"));
 		super.setIconImage(obj.getImage());
 		contentPane.setLayout(null);
 		cnx = ConnexionMySql.ConnectionDB();
@@ -118,7 +118,7 @@ public class OperateurFicheInformations extends JFrame {
 				dispose();
 			}
 		});
-		label_1.setIcon(new ImageIcon(getClass().getResource("/back.png")));
+		label_1.setIcon(new ImageIcon(getClass().getResource("/Les Icones/back.png")));
 		label_1.setBounds(10, 11, 36, 24);
 		contentPane.add(label_1);
 
@@ -340,7 +340,7 @@ public class OperateurFicheInformations extends JFrame {
 				}
 			}
 		});
-		btnConfirmer.setIcon(new ImageIcon(getClass().getResource("/icons8-bouton-de-radio-coch\u00E9-22.png")));
+		btnConfirmer.setIcon(new ImageIcon(getClass().getResource("/Les Icones/icons8-bouton-de-radio-coch\u00E9-22.png")));
 		btnConfirmer.setFont(new Font("Lucida Fax", Font.BOLD | Font.ITALIC, 13));
 		btnConfirmer.setBounds(32, 429, 131, 28);
 		panel_1.add(btnConfirmer);
@@ -366,7 +366,7 @@ public class OperateurFicheInformations extends JFrame {
 
 			}
 		});
-		btnAnnuler.setIcon(new ImageIcon(getClass().getResource("/icons8-annuler-22.png")));
+		btnAnnuler.setIcon(new ImageIcon(getClass().getResource("/Les Icones/icons8-annuler-22.png")));
 		btnAnnuler.setFont(new Font("Lucida Fax", Font.BOLD | Font.ITALIC, 13));
 		btnAnnuler.setBounds(206, 429, 131, 28);
 		panel_1.add(btnAnnuler);
@@ -426,7 +426,7 @@ public class OperateurFicheInformations extends JFrame {
 				updatetable();
 			}
 		});
-		btnVoirLesDemandes.setIcon(new ImageIcon(getClass().getResource("/icons8-eye-22.png")));
+		btnVoirLesDemandes.setIcon(new ImageIcon(getClass().getResource("/Les Icones/icons8-eye-22.png")));
 		btnVoirLesDemandes.setFont(new Font("Lucida Fax", Font.BOLD | Font.ITALIC, 12));
 		btnVoirLesDemandes.setBounds(236, 3, 247, 34);
 		panel_2.add(btnVoirLesDemandes);
@@ -469,7 +469,7 @@ public class OperateurFicheInformations extends JFrame {
 		scrollPane.setViewportView(demandestable);
 
 		JLabel label = new JLabel("");
-		label.setIcon(new ImageIcon(getClass().getResource("/GTAFE.png")));
+		label.setIcon(new ImageIcon(getClass().getResource("/Les Icones/GTAFE.png")));
 		label.setBounds(-15, -54, 1200, 650);
 		contentPane.add(label);
 	}

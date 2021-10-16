@@ -84,7 +84,7 @@ public class OperateurGestionAeronefs extends JFrame {
 		contentPane = new JPanel();
 		contentPane.setBorder(new EmptyBorder(5, 5, 5, 5));
 		setContentPane(contentPane);
-		ImageIcon obj = new ImageIcon(getClass().getResource("/logo.png"));
+		ImageIcon obj = new ImageIcon(getClass().getResource("/Les Icones/logo.png"));
 		super.setIconImage(obj.getImage());
 		contentPane.setLayout(null);
 		cnx = ConnexionMySql.ConnectionDB();
@@ -99,7 +99,7 @@ public class OperateurGestionAeronefs extends JFrame {
 				obj.setLocationRelativeTo(null);
 			}
 		});
-		label_1.setIcon(new ImageIcon(getClass().getResource("/back.png")));
+		label_1.setIcon(new ImageIcon(getClass().getResource("/Les Icones/back.png")));
 		label_1.setBounds(10, 4, 46, 33);
 		contentPane.add(label_1);
 
@@ -162,7 +162,7 @@ public class OperateurGestionAeronefs extends JFrame {
 				}
 			}
 		});
-		button.setIcon(new ImageIcon(getClass().getResource("/icons8-ajouter-22.png")));
+		button.setIcon(new ImageIcon(getClass().getResource("/Les Icones/icons8-ajouter-22.png")));
 		button.setFont(new Font("Lucida Fax", Font.BOLD | Font.ITALIC, 12));
 		button.setBounds(10, 433, 112, 26);
 		panel.add(button);
@@ -208,7 +208,7 @@ public class OperateurGestionAeronefs extends JFrame {
 				}
 			}
 		});
-		button_1.setIcon(new ImageIcon(getClass().getResource("/icons8-supprimer-22.png")));
+		button_1.setIcon(new ImageIcon(getClass().getResource("/Les Icones/icons8-supprimer-22.png")));
 		button_1.setFont(new Font("Lucida Fax", Font.BOLD | Font.ITALIC, 12));
 		button_1.setBounds(162, 433, 128, 26);
 		panel.add(button_1);
@@ -268,7 +268,7 @@ public class OperateurGestionAeronefs extends JFrame {
 				}
 			}
 		});
-		button_2.setIcon(new ImageIcon(getClass().getResource("/icons8-modifier-22.png")));
+		button_2.setIcon(new ImageIcon(getClass().getResource("/Les Icones/icons8-modifier-22.png")));
 		button_2.setFont(new Font("Lucida Fax", Font.BOLD | Font.ITALIC, 12));
 		button_2.setBounds(323, 433, 120, 26);
 		panel.add(button_2);
@@ -526,13 +526,13 @@ public class OperateurGestionAeronefs extends JFrame {
 				updatetable();
 			}
 		});
-		btnVoirLesAeronefs.setIcon(new ImageIcon(getClass().getResource("/icons8-eye-22.png")));
+		btnVoirLesAeronefs.setIcon(new ImageIcon(getClass().getResource("/Les Icones/icons8-eye-22.png")));
 		btnVoirLesAeronefs.setFont(new Font("Lucida Fax", Font.BOLD | Font.ITALIC, 13));
 		btnVoirLesAeronefs.setBounds(141, 6, 367, 29);
 		panel_1.add(btnVoirLesAeronefs);
 
 		JLabel label = new JLabel("");
-		label.setIcon(new ImageIcon(getClass().getResource("/GTAFE.png")));
+		label.setIcon(new ImageIcon(getClass().getResource("/Les Icones/GTAFE.png")));
 		label.setBounds(0, -52, 1200, 650);
 		contentPane.add(label);
 	}

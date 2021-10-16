@@ -69,7 +69,7 @@ public class CompagnieGestionAeronefs extends JFrame {
 				try {
 					UIManager.setLookAndFeel(new NimbusLookAndFeel());
 					CompagnieGestionAeronefs frame = new CompagnieGestionAeronefs();
-					ImageIcon obj = new ImageIcon("C:\\Users\\m2k\\Desktop\\Amine YKh\\amine\\PROJET GL\\logo.png");
+					ImageIcon obj = new ImageIcon("/Les Icones/logo.png");
 					frame.setIconImage(obj.getImage());
 					frame.setVisible(true);
 				} catch (Exception e) {
@@ -91,7 +91,7 @@ public class CompagnieGestionAeronefs extends JFrame {
 		contentPane = new JPanel();
 		contentPane.setBorder(new EmptyBorder(5, 5, 5, 5));
 		setContentPane(contentPane);
-		ImageIcon obj = new ImageIcon(getClass().getResource("/logo.png"));
+		ImageIcon obj = new ImageIcon(getClass().getResource("/Les Icones/logo.png"));
 		super.setIconImage(obj.getImage());
 		contentPane.setLayout(null);
 		cnx = ConnexionMySql.ConnectionDB();
@@ -106,7 +106,7 @@ public class CompagnieGestionAeronefs extends JFrame {
 				dispose();
 			}
 		});
-		label_1.setIcon(new ImageIcon(getClass().getResource("/back.png")));
+		label_1.setIcon(new ImageIcon(getClass().getResource("/Les Icones/back.png")));
 		label_1.setBounds(10, 11, 46, 24);
 		contentPane.add(label_1);
 
@@ -173,7 +173,7 @@ public class CompagnieGestionAeronefs extends JFrame {
 				}
 			}
 		});
-		btnAjouter.setIcon(new ImageIcon(getClass().getResource("/icons8-ajouter-22.png")));
+		btnAjouter.setIcon(new ImageIcon(getClass().getResource("/Les Icones/icons8-ajouter-22.png")));
 		btnAjouter.setFont(new Font("Lucida Fax", Font.BOLD | Font.ITALIC, 13));
 		btnAjouter.setBounds(10, 425, 120, 31);
 		panel.add(btnAjouter);
@@ -218,7 +218,7 @@ public class CompagnieGestionAeronefs extends JFrame {
 				}
 			}
 		});
-		btnSupprimer.setIcon(new ImageIcon(getClass().getResource("/icons8-supprimer-22.png")));
+		btnSupprimer.setIcon(new ImageIcon(getClass().getResource("/Les Icones/icons8-supprimer-22.png")));
 		btnSupprimer.setFont(new Font("Lucida Fax", Font.BOLD | Font.ITALIC, 12));
 		btnSupprimer.setBounds(162, 425, 128, 31);
 		panel.add(btnSupprimer);
@@ -277,7 +277,7 @@ public class CompagnieGestionAeronefs extends JFrame {
 				}
 			}
 		});
-		btnModifier.setIcon(new ImageIcon(getClass().getResource("/icons8-modifier-22.png")));
+		btnModifier.setIcon(new ImageIcon(getClass().getResource("/Les Icones/icons8-modifier-22.png")));
 		btnModifier.setFont(new Font("Lucida Fax", Font.BOLD | Font.ITALIC, 12));
 		btnModifier.setBounds(323, 425, 120, 31);
 		panel.add(btnModifier);
@@ -578,16 +578,16 @@ public class CompagnieGestionAeronefs extends JFrame {
 				updatetable();
 			}
 		});
-		btnVoirListeDes.setIcon(new ImageIcon(getClass().getResource("/icons8-eye-22.png")));
+		btnVoirListeDes.setIcon(new ImageIcon(getClass().getResource("/Les Icones/icons8-eye-22.png")));
 		btnVoirListeDes.setFont(new Font("Lucida Fax", Font.BOLD | Font.ITALIC, 13));
 
 		JLabel label = new JLabel("");
-		label.setIcon(new ImageIcon(getClass().getResource("/GTAFE.png")));
+		label.setIcon(new ImageIcon(getClass().getResource("/Les Icones/GTAFE.png")));
 		label.setBounds(20, -57, 1200, 650);
 		contentPane.add(label);
 
 		JLabel label_3 = new JLabel("");
-		label_3.setIcon(new ImageIcon(getClass().getResource("/GTAFE.png")));
+		label_3.setIcon(new ImageIcon(getClass().getResource("/Les Icones/GTAFE.png")));
 		label_3.setBounds(0, -57, 1200, 650);
 		contentPane.add(label_3);
 	}

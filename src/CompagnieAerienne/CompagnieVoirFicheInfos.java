@@ -67,7 +67,7 @@ public class CompagnieVoirFicheInfos extends JFrame {
 		contentPane = new JPanel();
 		contentPane.setBorder(new EmptyBorder(5, 5, 5, 5));
 		setContentPane(contentPane);
-		ImageIcon obj = new ImageIcon(getClass().getResource("/logo.png"));
+		ImageIcon obj = new ImageIcon(getClass().getResource("/Les Icones/logo.png"));
 		super.setIconImage(obj.getImage());
 		contentPane.setLayout(null);
 		cnx = ConnexionMySql.ConnectionDB();
@@ -82,7 +82,7 @@ public class CompagnieVoirFicheInfos extends JFrame {
 				dispose();
 			}
 		});
-		label_1.setIcon(new ImageIcon(getClass().getResource("/back.png")));
+		label_1.setIcon(new ImageIcon(getClass().getResource("/Les Icones/back.png")));
 		label_1.setBounds(10, 11, 46, 29);
 		contentPane.add(label_1);
 
@@ -132,13 +132,13 @@ public class CompagnieVoirFicheInfos extends JFrame {
 				upadatetable();
 			}
 		});
-		btnVoirFicheDinformations.setIcon(new ImageIcon(getClass().getResource("/icons8-eye-22.png")));
+		btnVoirFicheDinformations.setIcon(new ImageIcon(getClass().getResource("/Les Icones/icons8-eye-22.png")));
 		btnVoirFicheDinformations.setFont(new Font("Lucida Fax", Font.BOLD | Font.ITALIC, 13));
 		btnVoirFicheDinformations.setBounds(35, 264, 244, 29);
 		contentPane.add(btnVoirFicheDinformations);
 
 		JLabel label = new JLabel("");
-		label.setIcon(new ImageIcon(getClass().getResource("/GTAFE.png")));
+		label.setIcon(new ImageIcon(getClass().getResource("/Les Icones/GTAFE.png")));
 		label.setBounds(0, -50, 1200, 650);
 		contentPane.add(label);
 	}

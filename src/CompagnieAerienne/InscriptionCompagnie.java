@@ -78,7 +78,7 @@ public class InscriptionCompagnie extends JFrame {
 		contentPane.setBorder(new EmptyBorder(5, 5, 5, 5));
 		contentPane.setLayout(null);
 		setContentPane(contentPane);
-		ImageIcon obj = new ImageIcon(getClass().getResource("/logo.png"));
+		ImageIcon obj = new ImageIcon(getClass().getResource("/Les Icones/logo.png"));
 		super.setIconImage(obj.getImage());
 		cnx = ConnexionMySql.ConnectionDB();
 		contentPane.setLayout(null);
@@ -268,7 +268,7 @@ public class InscriptionCompagnie extends JFrame {
 				btnSinscrire.setBackground(new Color(105, 105, 105));
 			}
 		});
-		btnSinscrire.setIcon(new ImageIcon(getClass().getResource("/icons8-document-25.png")));
+		btnSinscrire.setIcon(new ImageIcon(getClass().getResource("/Les Icones/icons8-document-25.png")));
 		btnSinscrire.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
 				if (lblerror.getText().equals("")) {

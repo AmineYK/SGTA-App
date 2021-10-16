@@ -72,7 +72,7 @@ public class DirecteurAjouterListeNoir extends JFrame {
 		contentPane = new JPanel();
 		contentPane.setBorder(new EmptyBorder(5, 5, 5, 5));
 		setContentPane(contentPane);
-		ImageIcon obj = new ImageIcon(getClass().getResource("/logo.png"));
+		ImageIcon obj = new ImageIcon(getClass().getResource("/Les Icones/logo.png"));
 		super.setIconImage(obj.getImage());
 		contentPane.setLayout(null);
 		cnx = ConnexionMySql.ConnectionDB();
@@ -102,7 +102,7 @@ public class DirecteurAjouterListeNoir extends JFrame {
 				dispose();
 			}
 		});
-		btnConfirmer.setIcon(new ImageIcon(getClass().getResource("/icons8-annuler-22.png")));
+		btnConfirmer.setIcon(new ImageIcon(getClass().getResource("/Les Icones/icons8-annuler-22.png")));
 		btnConfirmer.setFont(new Font("Lucida Fax", Font.BOLD | Font.ITALIC, 13));
 		btnConfirmer.setBounds(526, 452, 141, 29);
 		panel.add(btnConfirmer);
@@ -155,7 +155,7 @@ public class DirecteurAjouterListeNoir extends JFrame {
 				}
 			}
 		});
-		button.setIcon(new ImageIcon(getClass().getResource("/icons8-bouton-de-radio-coch\u00E9-22.png")));
+		button.setIcon(new ImageIcon(getClass().getResource("/Les Icones/icons8-bouton-de-radio-coch\u00E9-22.png")));
 		button.setFont(new Font("Lucida Fax", Font.BOLD | Font.ITALIC, 13));
 		button.setBounds(285, 452, 141, 29);
 		panel.add(button);

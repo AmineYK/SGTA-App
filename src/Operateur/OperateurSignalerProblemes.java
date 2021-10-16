@@ -61,7 +61,7 @@ public class OperateurSignalerProblemes extends JFrame {
 		contentPane.setBackground(Color.GRAY);
 		contentPane.setBorder(new EmptyBorder(5, 5, 5, 5));
 		setContentPane(contentPane);
-		ImageIcon obj = new ImageIcon(getClass().getResource("/logo.png"));
+		ImageIcon obj = new ImageIcon(getClass().getResource("/Les Icones/logo.png"));
 		super.setIconImage(obj.getImage());
 		contentPane.setLayout(null);
 		cnx = ConnexionMySql.ConnectionDB();
@@ -121,7 +121,7 @@ public class OperateurSignalerProblemes extends JFrame {
 		});
 		btnAjouter.setBounds(60, 456, 135, 27);
 		contentPane.add(btnAjouter);
-		btnAjouter.setIcon(new ImageIcon(getClass().getResource("/icons8-bouton-de-radio-coch\u00E9-22.png")));
+		btnAjouter.setIcon(new ImageIcon(getClass().getResource("/Les Icones/icons8-bouton-de-radio-coch\u00E9-22.png")));
 		btnAjouter.setFont(new Font("Lucida Fax", Font.BOLD | Font.ITALIC, 13));
 
 		JButton btnAnnuler = new JButton("Annuler");
@@ -143,7 +143,7 @@ public class OperateurSignalerProblemes extends JFrame {
 				dispose();
 			}
 		});
-		btnAnnuler.setIcon(new ImageIcon(getClass().getResource("/icons8-annuler-22.png")));
+		btnAnnuler.setIcon(new ImageIcon(getClass().getResource("/Les Icones/icons8-annuler-22.png")));
 		btnAnnuler.setFont(new Font("Lucida Fax", Font.BOLD | Font.ITALIC, 13));
 		btnAnnuler.setBounds(226, 456, 122, 27);
 		contentPane.add(btnAnnuler);

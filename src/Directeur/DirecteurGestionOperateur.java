@@ -76,7 +76,7 @@ public class DirecteurGestionOperateur extends JFrame {
 		contentPane = new JPanel();
 		contentPane.setBorder(new EmptyBorder(5, 5, 5, 5));
 		setContentPane(contentPane);
-		ImageIcon obj = new ImageIcon(getClass().getResource("/logo.png"));
+		ImageIcon obj = new ImageIcon(getClass().getResource("/Les Icones/logo.png"));
 		super.setIconImage(obj.getImage());
 		contentPane.setLayout(null);
 		cnx = ConnexionMySql.ConnectionDB();
@@ -90,7 +90,7 @@ public class DirecteurGestionOperateur extends JFrame {
 				dispose();
 			}
 		});
-		label_1.setIcon(new ImageIcon(getClass().getResource("/back.png")));
+		label_1.setIcon(new ImageIcon(getClass().getResource("/Les Icones/back.png")));
 		label_1.setBounds(10, 11, 46, 29);
 		contentPane.add(label_1);
 
@@ -149,7 +149,7 @@ public class DirecteurGestionOperateur extends JFrame {
 				}
 			}
 		});
-		btnAjouter.setIcon(new ImageIcon(getClass().getResource("/icons8-ajouter-22.png")));
+		btnAjouter.setIcon(new ImageIcon(getClass().getResource("/Les Icones/icons8-ajouter-22.png")));
 		btnAjouter.setFont(new Font("Lucida Fax", Font.BOLD | Font.ITALIC, 13));
 		btnAjouter.setBounds(10, 393, 112, 28);
 		panel.add(btnAjouter);
@@ -196,7 +196,7 @@ public class DirecteurGestionOperateur extends JFrame {
 				}
 			}
 		});
-		btnSupprimer.setIcon(new ImageIcon(getClass().getResource("/icons8-supprimer-22.png")));
+		btnSupprimer.setIcon(new ImageIcon(getClass().getResource("/Les Icones/icons8-supprimer-22.png")));
 		btnSupprimer.setFont(new Font("Lucida Fax", Font.BOLD | Font.ITALIC, 13));
 		btnSupprimer.setBounds(143, 393, 150, 28);
 		panel.add(btnSupprimer);
@@ -250,7 +250,7 @@ public class DirecteurGestionOperateur extends JFrame {
 				}
 			}
 		});
-		btnModifier.setIcon(new ImageIcon(getClass().getResource("/icons8-modifier-22.png")));
+		btnModifier.setIcon(new ImageIcon(getClass().getResource("/Les Icones/icons8-modifier-22.png")));
 		btnModifier.setFont(new Font("Lucida Fax", Font.BOLD | Font.ITALIC, 12));
 		btnModifier.setBounds(317, 393, 128, 28);
 		panel.add(btnModifier);
@@ -422,7 +422,7 @@ public class DirecteurGestionOperateur extends JFrame {
 				updatetable();
 			}
 		});
-		btnVoirLesOperateurs.setIcon(new ImageIcon(getClass().getResource("/icons8-eye-22.png")));
+		btnVoirLesOperateurs.setIcon(new ImageIcon(getClass().getResource("/Les Icones/icons8-eye-22.png")));
 		btnVoirLesOperateurs.setFont(new Font("Lucida Fax", Font.BOLD | Font.ITALIC, 13));
 		btnVoirLesOperateurs.setBounds(188, 9, 279, 31);
 		panel_1.add(btnVoirLesOperateurs);
@@ -449,13 +449,13 @@ public class DirecteurGestionOperateur extends JFrame {
 				obj.setLocationRelativeTo(null);
 			}
 		});
-		btnConsulterLesTaches.setIcon(new ImageIcon(getClass().getResource("/consult.png")));
+		btnConsulterLesTaches.setIcon(new ImageIcon(getClass().getResource("/Les Icones/consult.png")));
 		btnConsulterLesTaches.setFont(new Font("Lucida Fax", Font.BOLD | Font.ITALIC, 13));
 		btnConsulterLesTaches.setBounds(403, 11, 311, 35);
 		contentPane.add(btnConsulterLesTaches);
 
 		JLabel label = new JLabel("");
-		label.setIcon(new ImageIcon(getClass().getResource("/GTAFE.png")));
+		label.setIcon(new ImageIcon(getClass().getResource("/Les Icones/GTAFE.png")));
 		label.setBounds(0, -51, 1200, 650);
 		contentPane.add(label);
 	}
